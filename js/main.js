@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 
 $(function () {
-    $('#input').on('keypress', function (e) {
-        $("#output").val(Math.ceil(parseInt($("#input").val() + e.key) * 1.1));
+    $('#input').on('keyup', function (e) {
+        $("#output").val(Math.ceil(parseInt($("#input").val()) * 1.1));
     });
 });
