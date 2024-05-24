@@ -1,9 +1,37 @@
 <!DOCTYPE html>
+<meta charset="UTF-8" />
 <html>
 <head>
     <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<p>привет</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <h1><p style="font-size: 20px">Я покупаю</h1>
+
+                <div class="form form-inline">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="input">
+                    </div>
+
+                    <h1><p style="font-size: 20px">Значит должен выставить за</h1>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="output">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="third-party/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="third-party/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="third-party/typahead/bootstrap3-typeahead.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>

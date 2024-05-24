@@ -1,0 +1,12 @@
+html * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group {
+    width: 100%;
+}
+
+#input, #output {
+    margin-top: 25px;
+    width: 100%;
+}
