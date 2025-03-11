@@ -8,6 +8,6 @@ $(document).ready(function () {
 
 $(function () {
     $('#input').on('keyup', function (e) {
-        $("#output").val(Math.floor(parseInt($("#input").val()) * 1.105));
+        $("#output").val(Math.floor(parseInt($("#input").val()) * 1.11));
     });
 });
